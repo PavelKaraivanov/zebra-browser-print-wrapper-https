@@ -1,7 +1,7 @@
 {
-    "name": "zebra-browser-print-wrapper",
-    "version": "0.1.2",
-    "description": "Zebra Browser Print Javascript Wrapper",
+    "name": "zebra-browser-print-wrapper-https",
+    "version": "0.1.4",
+    "description": "Zebra Browser Print Javascript Wrapper for https protocol",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
@@ -13,7 +13,7 @@
     "dependencies": {},
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/lhilario/zebra-browser-print-wrapper.git"
+        "url": "https://github.com/PavelKaraivanov/zebra-browser-print-wrapper-https"
     },
     "keywords": [
         "zpl",
@@ -25,12 +25,12 @@
     "files": [
         "lib/**/*"
     ],
-    "author": "Luismar Hilario",
+    "author": "PavelKaraivanov",
     "license": "GPL-3.0",
     "bugs": {
-        "url": "https://github.com/lhilario/zebra-browser-print-wrapper/issues"
+        "url": "https://github.com/PavelKaraivanov/zebra-browser-print-wrapper/issues"
     },
-    "homepage": "https://github.com/lhilario/zebra-browser-print-wrapper#readme",
+    "homepage": "https://github.com/PavelKaraivanov/zebra-browser-print-wrapper#readme",
     "devDependencies": {
         "@types/jest": "^26.0.23",
         "jest": "^27.0.4",
