@@ -10,7 +10,9 @@
         "lint": "tslint -p tsconfig.json",
         "test": "jest --config jestconfig.json"
     },
-    "dependencies": {},
+    "dependencies": {
+        "-": "^0.0.1"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/PavelKaraivanov/zebra-browser-print-wrapper-https"
