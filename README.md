@@ -1,6 +1,6 @@
 # Zebra Browser Print Wrapper
 
-This package is update of [Zebra Browser Print Wrapper](https://github.com/lhilario/zebra-browser-print-wrapper#readme) and allows you to connect [Zebra Browser Print](https://www.zebra.com/la/es/support-downloads/printer-software/by-request-software.html#browser-print) with your (ReactJs, Angular) aplication through https protocol. The only difference with original version is configuration of API_URL in file contstants.ts!
+This package is update of [Zebra Browser Print Wrapper](https://www.npmjs.com/package/zebra-browser-print-wrapper) and allows you to connect [Zebra Browser Print](https://www.zebra.com/la/es/support-downloads/printer-software/by-request-software.html#browser-print) with your (ReactJs, Angular) aplication through https protocol. The only difference with original version is configuration of API_URL in file contstants.ts!
 
 ## Install
 
@@ -72,7 +72,7 @@ You can use this method with simple text or add a string using the [ZPL language
 
 ```js
 // Import the zebra-browser-prit-wrapper package
-import ZebraBrowserPrintWrapperHttps from "zebra-browser-print-wrapper-https";
+import ZebraBrowserPrintWrapper from "zebra-browser-print-wrapper-https";
 
     async printLabel() {
         try {
